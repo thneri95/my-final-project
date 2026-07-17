@@ -1,12 +1,12 @@
 # PROJECT PROPOSAL: FINANCE LIFE HUB
 
-## OVERVIEW  
-Finance Life Hub (FLH) is a centralized personal finance dashboard designed to help users manage their money in one place. The app addresses a common problem: people often track expenses, savings goals, bills, and financial information across multiple apps or notebooks, making it difficult to stay organized and make informed decisions.  
+OVERVIEW  
+Finance Life Hub is a centralized personal finance dashboard designed to help users manage their money in one place. The app addresses a common problem: people often track expenses, savings goals, bills, and financial information across multiple apps or notebooks, making it difficult to stay organized and make informed decisions.  
 FLH provides a customizable and user-friendly workspace where users can monitor income and expenses, manage monthly budgets, track savings progress, and view key financial insights in real time. The goal is to simplify daily financial management and support better financial habits.
 
 ---
 
-## TARGET AUDIENCE  
+TARGET AUDIENCE 
 This app is designed for:
 - College students managing limited monthly budgets  
 - Young professionals building savings and controlling spending  
@@ -15,40 +15,40 @@ This app is designed for:
 
 ---
 
-## MAJOR FUNCTIONS
+MAJOR FUNCTIONS
 
-### 1) Budget & Expense Tracker  
+1) Budget & Expense Tracker  
 - Add, edit, and delete income/expense transactions  
 - Organize transactions by category (Food, Transport, Rent, Utilities, etc.)  
 - View monthly totals and category-level spending breakdown  
 
-### 2) Savings Goals Module  
+2) Savings Goals Module  
 - Create personalized savings goals (e.g., Emergency Fund, Tuition, Travel)  
 - Set target amount and deadline  
 - Visualize progress through progress bars and milestone indicators  
 
-### 3) Bills & Reminders Module  
+3) Bills & Reminders Module  
 - Track recurring bills and due dates  
 - Display upcoming payments in dashboard alerts  
 - Mark bills as paid to maintain payment history  
 
-### 4) Debt Payoff Calculator  
+4) Debt Payoff Calculator  
 - Input debt amount, interest rate, and monthly payment  
 - Estimate payoff duration and total interest paid  
 - Compare payoff scenarios using different payment values  
 
-### 5) Financial Snapshot Dashboard  
+5) Financial Snapshot Dashboard  
 - Show key metrics: total income, total expenses, remaining balance, savings progress  
 - Display monthly trend charts for spending behavior  
 - Provide quick financial insights (e.g., highest spending category)  
 
-### 6) Quick Links & Notes Panel  
+6) Quick Links & Notes Panel  
 - Save links to bank portals, scholarship pages, loan websites, or budgeting resources  
 - Keep short notes for financial plans, reminders, or ideas  
 
 ---
 
-## WIREFRAME (PLANNED SCREENS)  
+WIREFRAME (PLANNED SCREENS)  
 - **Dashboard (Home):** summary cards, alerts, charts, quick actions  
 - **Transactions Page:** list + filters + add/edit form  
 - **Savings Goals Page:** goals list, create goal form, progress view  
@@ -58,26 +58,26 @@ This app is designed for:
 
 ---
 
-## EXTERNAL DATA  
+EXTERNAL DATA  
 Finance Life Hub will use the following APIs:
 
-1. **Alpha Vantage API**  
+1. Alpha Vantage API  
    - For basic market widgets (stocks/forex overview)  
    - https://www.alphavantage.co/
 
-2. **ExchangeRate-API** (optional/alternative)  
+2. ExchangeRate-API   
    - For currency conversion support  
    - https://www.exchangerate-api.com/
 
-3. **NewsAPI** (optional enhancement)  
+3. NewsAPI
    - For financial/economic headline cards on dashboard  
    - https://newsapi.org/
 
 > Note: Core app features (budgeting, goals, bills, debt calculator) will work independently of external APIs to ensure reliability.
 
----
+--------------------------------------
 
-## MODULE LIST  
+ MODULE LIST  
 - Dashboard Module  
 - Transactions Module  
 - Budget Module  
@@ -93,9 +93,9 @@ Finance Life Hub will use the following APIs:
 
 ---
 
-## GRAPHIC IDENTITY
+GRAPHIC IDENTITY
 
-### COLORS  
+COLORS  
 - **Primary:** #0B132B  
 - **Secondary:** #1C2541  
 - **Accent:** #3A86FF  
@@ -105,16 +105,16 @@ Finance Life Hub will use the following APIs:
 - **Cards:** #FFFFFF  
 - **Text:** #1F2937  
 
-### TYPOGRAPHY  
+TYPOGRAPHY  
 - **Headings:** Poppins SemiBold  
 - **Body Text:** Inter Regular  
 - **Numbers/Financial Values:** JetBrains Mono  
 
 ---
 
-## TIMELINE
+TIMELINE
 
-### WEEK 5  
+WEEK 5  
 - Set up project architecture (HTML, CSS, JS modules, repository)  
 - Apply branding (colors, typography, layout system)  
 - Build Dashboard base layout  
@@ -122,7 +122,7 @@ Finance Life Hub will use the following APIs:
 - Implement Local Storage persistence  
 - Ensure responsive design for desktop/mobile  
 
-### WEEK 6  
+WEEK 6  
 - Build Budget planner module  
 - Build Savings Goals module with progress indicators  
 - Build Bills & Reminders module  
@@ -130,7 +130,7 @@ Finance Life Hub will use the following APIs:
 - Integrate charts for monthly summaries  
 - Improve accessibility and validation  
 
-### WEEK 7  
+WEEK 7  
 - Build Debt Payoff Calculator  
 - Add Quick Links and Notes panels  
 - Integrate Alpha Vantage (and optional news/currency widget)  
@@ -140,15 +140,15 @@ Finance Life Hub will use the following APIs:
 
 ---
 
-## TRELLO BOARD (PLANNED)  
+TRELLO BOARD (PLANNED)  
 A Trello board will be used to track:
 - Backlog tasks  
-- Weekly   (Week 5 - 7)  
-- In Progress / Testing / Done workflow  
-- Bug fixes and enhancement ideas  
+- Weekly tasks  (Week 5 - 7)  
+- In Progress / Testing / Done workflow;  
+- Bug fixes and enhancement ideas;  
 
 ---
 
-## BIGGEST CHALLENGE  
-The biggest challenge will be  API integration and clean data flow between modules may also be complex;
+BIGGEST CHALLENGE  
+The biggest challenge will bethe  APIs integration and clean data flow between modules may also be complex;
 To manage this, development will prioritize a stable MVP first (transactions, budgets, savings, bills, local storage), followed by external API enhancements and UI polish;
