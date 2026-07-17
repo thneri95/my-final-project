@@ -1,17 +1,21 @@
-PROJECT PROPOSAL: FINANCE LIFE HUB
 
 OVERVIEW  
 Finance Life Hub is a centralized personal finance dashboard designed to help users manage their money in one place. The app addresses a common problem: people often track expenses, savings goals, bills, and financial information across multiple apps or notebooks, making it difficult to stay organized and make informed decisions.  
+
 FLH provides a customizable and user-friendly workspace where users can monitor income and expenses, manage monthly budgets, track savings progress, and view key financial insights in real time. The goal is to simplify daily financial management and support better financial habits.
+KEY OBJECTIVES
+The strategic goals for Finance Life Hub include:
+Simplify daily financial management by consolidating fragmented data into a single dashboard.
+Promote financial literacy and better habits through real-time insights and progress tracking.
+Ensure system reliability by prioritizing core offline functionality over external dependencies.
 
 
 TARGET AUDIENCE 
 This app is designed for:
-- College students managing limited monthly budgets  
-- Young professionals building savings and controlling spending  
-- Individuals or families who want a simple all-in-one finance dashboard  
-- Users who want better financial visibility without complex accounting software  
-
+- College students managing limited monthly budgets;  
+- Young professionals building savings and controlling spending; 
+- Individuals or families who want a simple all-in-one finance dashboard;  
+- Users who want better financial visibility without complex accounting software;
 
 MAJOR FUNCTIONS
 
@@ -21,7 +25,7 @@ MAJOR FUNCTIONS
 - View monthly totals and category-level spending breakdown  
 
 2) Savings Goals Module  
-- Create personalized savings goals (e.g., Emergency Fund, Tuition, Travel)  
+- Create personalized savings goals ( Emergency Fund, Tuition, Travel)  
 - Set target amount and deadline  
 - Visualize progress through progress bars and milestone indicators  
 
@@ -38,14 +42,14 @@ MAJOR FUNCTIONS
 5) Financial Snapshot Dashboard  
 - Show key metrics: total income, total expenses, remaining balance, savings progress  
 - Display monthly trend charts for spending behavior  
-- Provide quick financial insights (e.g., highest spending category)  
+- Provide quick financial insights (highest spending category)  
 
 6) Quick Links & Notes Panel  
 - Save links to bank portals, scholarship pages, loan websites, or budgeting resources  
 - Keep short notes for financial plans, reminders, or ideas  
 
 
-WIREFRAME (PLANNED SCREENS)  
+WIREFRAME  
 - Dashboard (Home): summary cards, alerts, charts, quick actions  
 - Transactions Page: list + filters + add/edit form  
 - Savings Goals Page: goals list, create goal form, progress view  
@@ -68,9 +72,10 @@ Finance Life Hub will use the following APIs:
    - For financial/economic headline cards on dashboard  
    - https://newsapi.org/
 
-> Note: Core app features (budgeting, goals, bills, debt calculator) will work independently of external APIs to ensure reliability.
+-> Note: Core app features (budgeting, goals, bills, debt calculator) will work independently of external APIs to ensure reliability;
 
---------------------------------------
+
+
 
  MODULE LIST  
 - Dashboard Module  
@@ -84,28 +89,26 @@ Finance Life Hub will use the following APIs:
 - Notes Module  
 - Local Storage/Data Persistence Module  
 - API Handling Module  
-- Future Module: Authentication + Cloud Sync  
+- Future Module: Authentication + Cloud Sync;  
 
----
 
 GRAPHIC IDENTITY
 
 COLORS  
-- Primary: #0B132B  
-- Secondary: #1C2541  
-- Accent: #3A86FF  
-- Success: #2ECC71  
-- Warning: #F4A261  
-- Background: #F8F9FA  
-- Cards: #FFFFFF  
-- Text: #1F2937  
+ Primary: #0B132B  
+ Secondary: #1C2541  
+ Accent: #3A86FF  
+ Success: #2ECC71  
+ Warning: #F4A261  
+ Background: #F8F9FA  
+ Cards: #FFFFFF  
+ Text: #1F2937  
 
 TYPOGRAPHY  
-- Headings: Poppins SemiBold  
-- Body Text: Inter Regular  
-- Numbers/Financial Values: JetBrains Mono  
+ Headings: Poppins SemiBold; 
+ Body Text: Inter Regular;  
+ Numbers/Financial Values: JetBrains Mono;  
 
----
 
 TIMELINE
 
@@ -116,6 +119,7 @@ WEEK 5
 - Implement Transactions module (CRUD + categories)  
 - Implement Local Storage persistence  
 - Ensure responsive design for desktop/mobile  
+
 
 WEEK 6  
 - Build Budget planner module  
@@ -134,15 +138,17 @@ WEEK 7
 - Deploy final version and prepare presentation/demo  
 
 
-TRELLO BOARD (PLANNED)  
+TRELLO BOARD 
 A Trello board will be used to track:
-- Backlog tasks  
-- Weekly tasks  (Week 5 - 7)  
+- Backlog tasks;  
+- Weekly tasks  (Week 5 - 7); 
 - In Progress / Testing / Done workflow;  
 - Bug fixes and enhancement ideas;  
 
 Link: 
 
 BIGGEST CHALLENGE  
-The biggest challenge will bethe  APIs integration and clean data flow between modules may also be complex;
-To manage this, development will prioritize a stable MVP first (transactions, budgets, savings, bills, local storage), followed by external API enhancements and UI polish;
+The primary challenge lies in the technical complexity of integrating disparate financial APIs while maintaining a clean, high-performance data flow between modules.
+To mitigate this risk and ensure reliability, the project will follow a phased roadmap:
+Phase 1: Stable MVP – Focus on core modules including transactions, budgets, savings, and local storage;
+Phase 2: Advanced Features – Integration of external APIs and UI/UX polish;
