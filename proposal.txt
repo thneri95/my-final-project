@@ -1,5 +1,5 @@
 
-OVERVIEW  
+Overview  
 Finance Life Hub is a centralized personal finance dashboard designed to help users manage their money in one place. The app addresses a common problem: people often track expenses, savings goals, bills, and financial information across multiple apps or notebooks, making it difficult to stay organized and make informed decisions.  
 
 FLH provides a customizable and user-friendly workspace where users can monitor income and expenses, manage monthly budgets, track savings progress, and view key financial insights in real time. The goal is to simplify daily financial management and support better financial habits.
@@ -10,14 +10,14 @@ Promote financial literacy and better habits through real-time insights and prog
 Ensure system reliability by prioritizing core offline functionality over external dependencies.
 
 
-TARGET AUDIENCE 
+Target Audience 
 This app is designed for:
 - College students managing limited monthly budgets;  
 - Young professionals building savings and controlling spending; 
 - Individuals or families who want a simple all-in-one finance dashboard;  
 - Users who want better financial visibility without complex accounting software;
 
-MAJOR FUNCTIONS
+Major Functions:
 
 1) Budget & Expense Tracker  
 - Add, edit, and delete income/expense transactions  
@@ -49,15 +49,16 @@ MAJOR FUNCTIONS
 - Keep short notes for financial plans, reminders, or ideas  
 
 
-WIREFRAME  
+Wireframe
+
 - Dashboard (Home): summary cards, alerts, charts, quick actions  
 - Transactions Page: list + filters + add/edit form  
 - Savings Goals Page: goals list, create goal form, progress view  
 - Bills Page: due-date panel, paid/unpaid status management  
 - Tools Page: debt calculator + quick links + notes  
-- Settings Page: categories, theme, profile preferences  
+- Settings Page: categories, profile preferences  
 
-EXTERNAL DATA  
+External Data 
 Finance Life Hub will use the following APIs:
 
 1. Alpha Vantage API  
@@ -72,12 +73,12 @@ Finance Life Hub will use the following APIs:
    - For financial/economic headline cards on dashboard  
    - https://newsapi.org/
 
--> Note: Core app features (budgeting, goals, bills, debt calculator) will work independently of external APIs to ensure reliability;
+-> Obs /  Note: Core app features (budgeting, goals, bills, debt calculator) will work independently of external APIs to ensure reliability;
 
 
 
 
- MODULE LIST  
+Modules List
 - Dashboard Module  
 - Transactions Module  
 - Budget Module  
@@ -89,10 +90,10 @@ Finance Life Hub will use the following APIs:
 - Notes Module  
 - Local Storage/Data Persistence Module  
 - API Handling Module  
-- Future Module: Authentication + Cloud Sync;  
+- Future Implement: Authentication + Cloud Sync;  
 
 
-GRAPHIC IDENTITY
+Graphic IDENTITY
 
 COLORS  
  Primary: #0B132B  
@@ -147,8 +148,9 @@ A Trello board will be used to track:
 
 Link: 
 
-BIGGEST CHALLENGE  
-The primary challenge lies in the technical complexity of integrating disparate financial APIs while maintaining a clean, high-performance data flow between modules.
+Challenge expected
+
+The primary challenge lies in the technical complexity of integrating disparate financial APIs while maintaining a clean, high-performance data flow between modules;
 To mitigate this risk and ensure reliability, the project will follow a phased roadmap:
 Phase 1: Stable MVP – Focus on core modules including transactions, budgets, savings, and local storage;
 Phase 2: Advanced Features – Integration of external APIs and UI/UX polish;
