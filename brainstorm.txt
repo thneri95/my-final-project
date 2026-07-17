@@ -1,0 +1,55 @@
+Byu-Idaho | BSc in Software Development  
+
+Course: WDD330 – Web Frontend Development ll   
+
+W03 Final Project: Brainstorm 
+
+Author: Tiago Borges   
+
+Brainstorming options for my project 
+
+Student Success Station
+A centralized academic workspace designed to streamline student experience through a customizable dashboard; 
+
+ 
+
+Core Functions: Class schedule with weekly visualization, assignment and deadline tracking, and an integrated Pomodoro study timer with focus statistics;  
+
+Management Tools: Course-specific notes manager, GPA/grade estimator, and a panel for quick access to LMS and library resources;  
+
+External Integrations: Google Calendar API for schedule syncing and ZenQuotes API or Type.fit API for personalized motivational daily quotes; 
+
+ 
+
+Freelancer Command Center
+A modular, all-in-one workspace optimized for freelancers and remote workers to manage the lifecycle of client projects; 
+
+Project Management: Client/project cards, comprehensive task manager, and deadline tracking;  
+
+Financial Tools: Billable time tracker with session history and an automated invoice estimator based on defined rates;  
+
+Global Workflow/Integration: ExchangeRate-API for real-time currency conversions, World Time API for international collaboration, and SendGrid API for quick proposal and email templates; 
+
+ 
+
+ 
+
+Finance Life Hub
+A personal finance workstation focused on budgeting, savings goals, and real-time financial tracking; 
+
+Budgeting: Income/expense tracking, category-based budget planning, and monthly spending summaries;  
+
+Financial Planning: Bill due-date reminders, savings goal progress tracking, and debt payoff calculators;  
+
+Data Feeds/Integration: Alpha Vantage API for market widgets and NewsAPI for an up-to-date economic and financial news overview; 
+
+ 
+
+Family Home Operations – “Dashboard"
+A shared family management hub designed to coordinate household logistics, expenses, and communication;
+
+Logistics: Shared family calendar, chore/task boards with deadlines, and real-time shopping list modules; 
+
+Information Vault: Secure storage for household expenses, important contact info, and quick links to utility portals or school systems;  
+
+Connectivity: Integration with Twilio API household alerts and notifications, and Google Maps API for location-based services (like finding nearby grocery stores for the shopping list); 
