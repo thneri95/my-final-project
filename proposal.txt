@@ -1,8 +1,10 @@
 
 Overview  
-Finance Life Hub is a centralized personal finance dashboard designed to help users manage their money in one place. The app addresses a common problem: people often track expenses, savings goals, bills, and financial information across multiple apps or notebooks, making it difficult to stay organized and make informed decisions.  
+My Finance Life Hub Application is a centralized personal finance dashboard designed to help users manage their money in one place;
+The app addresses a common problem: people often track expenses, savings goals, bills, and financial information across multiple apps or notebooks, making it difficult to stay organized and make informed decisions;
 
-FLH provides a customizable and user-friendly workspace where users can monitor income and expenses, manage monthly budgets, track savings progress, and view key financial insights in real time. The goal is to simplify daily financial management and support better financial habits.
+My Application provides a customizable and user-friendly workspace where users can monitor income and expenses, manage monthly budgets, track savings progress, and view key financial insights in real time. The goal is to simplify daily financial management and support better financial habits;
+
 KEY OBJECTIVES
 The strategic goals for Finance Life Hub include:
 Simplify daily financial management by consolidating fragmented data into a single dashboard.
@@ -12,85 +14,85 @@ Ensure system reliability by prioritizing core offline functionality over extern
 
 Target Audience 
 This app is designed for:
-- College students managing limited monthly budgets;  
-- Young professionals building savings and controlling spending; 
-- Individuals or families who want a simple all-in-one finance dashboard;  
-- Users who want better financial visibility without complex accounting software;
+College students managing limited monthly budgets;  
+Young professionals building savings and controlling spending; 
+Individuals or families who want a simple all-in-one finance dashboard;  
+Users who want better financial visibility without complex accounting software;
 
 Major Functions:
 
 1) Budget & Expense Tracker  
-- Add, edit, and delete income/expense transactions  
-- Organize transactions by category (Food, Transport, Rent, Utilities, etc.)  
-- View monthly totals and category-level spending breakdown  
+Add, edit, and delete income/expense transactions  
+Organize transactions by category (Food, Transport, Rent, Utilities, etc.)  
+View monthly totals and category-level spending breakdown  
 
 2) Savings Goals Module  
-- Create personalized savings goals ( Emergency Fund, Tuition, Travel)  
-- Set target amount and deadline  
-- Visualize progress through progress bars and milestone indicators  
+Create personalized savings goals ( Emergency Fund, Tuition, Travel)  
+Set target amount and deadline  
+Visualize progress through progress bars and milestone indicators  
 
 3) Bills & Reminders Module  
-- Track recurring bills and due dates  
-- Display upcoming payments in dashboard alerts  
-- Mark bills as paid to maintain payment history  
+Track recurring bills and due dates  
+Display upcoming payments in dashboard alerts  
+Mark bills as paid to maintain payment history  
+
 
 4) Debt Payoff Calculator  
-- Input debt amount, interest rate, and monthly payment  
-- Estimate payoff duration and total interest paid  
-- Compare payoff scenarios using different payment values  
+Input debt amount, interest rate, and monthly payment  
+Estimate payoff duration and total interest paid  
+Compare payoff scenarios using different payment values  
 
 5) Financial Snapshot Dashboard  
-- Show key metrics: total income, total expenses, remaining balance, savings progress  
-- Display monthly trend charts for spending behavior  
-- Provide quick financial insights (highest spending category)  
+Show key metrics: total income, total expenses, remaining balance, savings progress  
+Display monthly trend charts for spending behavior  
+Provide quick financial insights (highest spending category)  
 
 6) Quick Links & Notes Panel  
-- Save links to bank portals, scholarship pages, loan websites, or budgeting resources  
-- Keep short notes for financial plans, reminders, or ideas  
+Save links to bank portals, scholarship pages, loan websites, or budgeting resources  
+Keep short notes for financial plans, reminders, or ideas  
 
 
 Wireframe
-
-- Dashboard (Home): summary cards, alerts, charts, quick actions  
-- Transactions Page: list + filters + add/edit form  
-- Savings Goals Page: goals list, create goal form, progress view  
-- Bills Page: due-date panel, paid/unpaid status management  
-- Tools Page: debt calculator + quick links + notes  
-- Settings Page: categories, profile preferences  
+Dashboard (Home): summary cards, alerts, charts, quick actions;  
+Transactions Page: list + filters + add/edit form;  
+Savings Goals Page: goals list, create goal form, progress view;  
+Bills Page: due-date panel, paid/unpaid status management;  
+Tools Page: debt calculator + quick links + notes;  
+Settings Page: categories, profile preferences;  
 
 External Data 
 Finance Life Hub will use the following APIs:
 
 1. Alpha Vantage API  
-   - For basic market widgets (stocks/forex overview)  
-   - https://www.alphavantage.co/
+   For basic market widgets (stocks/forex overview)  
+   https://www.alphavantage.co/
 
 2. ExchangeRate-API   
-   - For currency conversion support  
-   - https://www.exchangerate-api.com/
+   For currency conversion support  
+   https://www.exchangerate-api.com/
 
 3. NewsAPI
-   - For financial/economic headline cards on dashboard  
-   - https://newsapi.org/
+   For financial/economic headline cards on dashboard  
+   https://newsapi.org/
 
--> Obs /  Note: Core app features (budgeting, goals, bills, debt calculator) will work independently of external APIs to ensure reliability;
+-> My Obs /  Note: Core app features (budgeting, goals, bills, debt calculator) will work independently of external APIs to ensure reliability;
 
 
 
 
 Modules List
-- Dashboard Module  
-- Transactions Module  
-- Budget Module  
-- Savings Goals Module  
-- Bills & Reminders Module  
-- Debt Calculator Module  
-- Charts/Analytics Module  
-- Quick Links Module  
-- Notes Module  
-- Local Storage/Data Persistence Module  
-- API Handling Module  
-- Future Implement: Authentication + Cloud Sync;  
+Dashboard Module  
+Transactions Module  
+Budget Module  
+Savings Goals Module  
+Bills & Reminders Module  
+Debt Calculator Module  
+Charts/Analytics Module  
+Quick Links Module  
+Notes Module  
+Local Storage/Data Persistence Module  
+API Handling Module  
+Future Implement: Authentication + Cloud Sync;  
 
 
 Graphic IDENTITY
@@ -114,37 +116,37 @@ TYPOGRAPHY
 TIMELINE
 
 WEEK 5  
-- Set up project architecture (HTML, CSS, JS modules, repository)  
-- Apply branding (colors, typography, layout system)  
-- Build Dashboard base layout  
-- Implement Transactions module (CRUD + categories)  
-- Implement Local Storage persistence  
-- Ensure responsive design for desktop/mobile  
+Set up project architecture (HTML, CSS, JS modules, repository)  
+Apply branding (colors, typography, layout system)  
+Build Dashboard base layout  
+Implement Transactions module (CRUD + categories)  
+Implement Local Storage persistence  
+Ensure responsive design for desktop/mobile  
 
 
 WEEK 6  
-- Build Budget planner module  
-- Build Savings Goals module with progress indicators  
-- Build Bills & Reminders module  
-- Add filtering/sorting for transactions  
-- Integrate charts for monthly summaries  
-- Improve accessibility and validation  
+Build Budget planner module  
+Build Savings Goals module with progress indicators  
+Build Bills & Reminders module  
+Add filtering/sorting for transactions  
+Integrate charts for monthly summaries  
+Improve accessibility and validation  
 
 WEEK 7  
-- Build Debt Payoff Calculator  
-- Add Quick Links and Notes panels  
-- Integrate Alpha Vantage (and optional news/currency widget)  
-- Add robust error handling and loading states for API calls  
-- Final QA testing (usability, responsiveness, edge cases)  
-- Deploy final version and prepare presentation/demo  
+Build Debt Payoff Calculator  
+Add Quick Links and Notes panels  
+Integrate Alpha Vantage (and optional news/currency widget)  
+Add robust error handling and loading states for API calls  
+Final QA testing (usability, responsiveness, edge cases)  
+Deploy final version and prepare presentation/demo  
 
 
 TRELLO BOARD 
-A Trello board will be used to track:
-- Backlog tasks;  
-- Weekly tasks  (Week 5 - 7); 
-- In Progress / Testing / Done workflow;  
-- Bug fixes and enhancement ideas;  
+MyTrello board will be used to track:
+Backlog tasks;  
+Weekly tasks  (Week 5 - 7); 
+In Progress / Testing / Done workflow;  
+Bug fixes and enhancement ideas;  
 
 Link: 
 
@@ -154,3 +156,5 @@ The primary challenge lies in the technical complexity of integrating disparate 
 To mitigate this risk and ensure reliability, the project will follow a phased roadmap:
 Phase 1: Stable MVP – Focus on core modules including transactions, budgets, savings, and local storage;
 Phase 2: Advanced Features – Integration of external APIs and UI/UX polish;
+
+
