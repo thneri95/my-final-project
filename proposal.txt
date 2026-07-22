@@ -75,7 +75,7 @@ Finance Life Hub will use the following APIs:
    For financial/economic headline cards on dashboard  
    https://newsapi.org/
 
-My Obs/ Note: Core app features (budgeting, goals, bills, debt calculator) will work independently of external APIs to ensure reliability;
+Obs/ Note: Core app features (budgeting, goals, bills, debt calculator) will work independently of external APIs to ensure reliability;
 
 
 
